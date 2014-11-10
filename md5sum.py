@@ -3,7 +3,7 @@
 #
 #  Copyright (c) 2014 Zhong Kaixiang
 #
-#  @file     md5_sum.py
+#  @file     md5sum.py
 #  @author   kaka_ace <xiang.ace@gmail.com>
 #  @date     Thu Nov 06 2014
 #  @brief    caculate md5 value    
@@ -12,7 +12,7 @@
 
 import sys 
 if len(sys.argv) < 2:
-    print(" Usage: md5_sum.py [file] or stdin stream")
+    print(" Usage: md5sum.py [file] or stdin stream")
 
 from optparse import OptionParser 
 
